@@ -23,6 +23,11 @@ def directors_totals(nds)
 			director_index += 1
 		end
 		return result
+
+      result.store([director_index][:name], gross)
+			director_index += 1
+		end
+		puts result
 	 
   #
   # Use loops, variables and the accessing method, [], to loop through the NDS
